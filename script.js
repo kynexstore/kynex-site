@@ -1,7 +1,7 @@
 const lista = document.getElementById("lista-produtos");
 
 
-function mostrarProdutos(categoria){
+function mostrarprodutos(categoria){
 
     lista.innerHTML = "";
 
