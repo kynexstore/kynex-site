@@ -1,11 +1,23 @@
 const lista = document.getElementById("lista-produtos");
 
 
-produtos.forEach(produto => {
+function mostrarProdutos(categoria){
 
-    lista.innerHTML += `
+    lista.innerHTML = "";
 
-    <div class="card">
+
+    const produtosFiltrados = categoria === "Todos"
+    ? produtos
+    : produtos.filter(produto => produto.categoria === categoria);
+
+
+
+    produtosFiltrados.forEach(produto => {
+
+
+        lista.innerHTML += `
+
+        <div class="card">
 
         <img src="${produto.imagem}">
 
@@ -21,8 +33,18 @@ produtos.forEach(produto => {
         Ver oferta
         </button>
 
-    </div>
+        </div>
 
-    `;
+        `;
+
+
+    });
+
+}
+
+
+// Carrega todos ao abrir
+
+mostrarProdutos("Todos");
 
 });
