@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #080808;
+    color: white;
+}
+
+
+/* CABEÇALHO */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 8%;
+    background: #0f0f0f;
+    border-bottom: 1px solid #222;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: 900;
+    color: #ff6a00;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    transition: .3s;
+}
+
+nav a:hover {
+    color: #ff6a00;
+}
+
+
+/* BANNER */
+
+.hero {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    padding: 0 8%;
+    background:
+    linear-gradient(
+    rgba(0,0,0,.7),
+    rgba(0,0,0,.9)
+    ),
+    url("https://images.unsplash.com/photo-1593640408182-31c70c8268f5");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.hero h1 {
+    font-size: 55px;
+    max-width: 700px;
+}
+
+
+.hero p {
+    margin: 20px 0;
+    font-size: 20px;
+    color: #ccc;
+}
+
+
+button {
+    background: #ff6a00;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+
+
+button:hover {
+    transform: scale(1.05);
+    background: #ff8500;
+}
+
+
+/* PRODUTOS */
+
+
+.produtos {
+    padding: 60px 8%;
+}
+
+
+.produtos h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 25px;
+}
+
+
+.card {
+    background: #151515;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #222;
+    transition: .3s;
+}
+
+
+.card:hover {
+    transform: translateY(-10px);
+    border-color: #ff6a00;
+}
+
+
+.card h3 {
+    color: #ff6a00;
+    margin-bottom: 15px;
+}
+
+
+.card p {
+    color: #bbb;
+    margin-bottom: 25px;
+}
+
+
+/* RODAPÉ */
+
+footer {
+    text-align:center;
+    padding:30px;
+    color:#777;
+}
