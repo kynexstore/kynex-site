@@ -4,7 +4,7 @@ const produtos = [
 nome:"Akko TAC75 HE",
 categoria:"Teclados",
 descricao:"Teclado magnético Hall Effect para jogos competitivos.",
-imagem:"akko foto 1.avif",
+imagem:"images/akko-tac75he.avif",
 link:"#"
 },
 
