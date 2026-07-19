@@ -1,13 +1,28 @@
-// KYNEX - Interações do site
+const lista = document.getElementById("lista-produtos");
 
-const botoes = document.querySelectorAll("button");
 
-botoes.forEach(botao => {
+produtos.forEach(produto => {
 
-    botao.addEventListener("click", () => {
+    lista.innerHTML += `
 
-        alert("Em breve você será direcionado para a oferta do produto!");
+    <div class="card">
 
-    });
+        <img src="${produto.imagem}">
+
+        <h3>${produto.nome}</h3>
+
+        <p>${produto.descricao}</p>
+
+        <strong>${produto.preco}</strong>
+
+        <br><br>
+
+        <button onclick="window.location.href='${produto.link}'">
+        Ver oferta
+        </button>
+
+    </div>
+
+    `;
 
 });
