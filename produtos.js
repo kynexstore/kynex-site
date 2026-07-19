@@ -12,7 +12,7 @@ link:"#"
 nome:"Madlions MAD60",
 categoria:"Teclados",
 descricao:"Teclado compacto magnético para setups minimalistas.",
-imagem:"https://images.unsplash.com/photo-1587829741301-dc798b83add3",
+imagem:"images/madlions-mad60he.avif",
 link:"#"
 },
 
