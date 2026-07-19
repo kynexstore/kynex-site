@@ -119,7 +119,27 @@ button:hover {
     border: 1px solid #222;
     transition: .3s;
 }
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
 
+
+.filtros {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+
+.filtros button {
+    padding: 10px 25px;
+}
 
 .card:hover {
     transform: translateY(-10px);
