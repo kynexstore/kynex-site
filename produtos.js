@@ -17,7 +17,7 @@ link:"#"
 },
 
 {
-nome:"Mouse Gamer",
+nome:"Attack Shark X3",
 categoria:"Mouses",
 descricao:"Mouse leve e preciso para FPS.",
 imagem:"https://images.unsplash.com/photo-1527814050087-3793815479db",
