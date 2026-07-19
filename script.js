@@ -3,48 +3,57 @@ const lista = document.getElementById("lista-produtos");
 
 function mostrarProdutos(categoria){
 
-    lista.innerHTML = "";
+
+lista.innerHTML="";
 
 
-    const produtosFiltrados = categoria === "Todos"
-    ? produtos
-    : produtos.filter(produto => produto.categoria === categoria);
+let produtosFiltrados;
 
 
+if(categoria === "Todos"){
 
-    produtosFiltrados.forEach(produto => {
+produtosFiltrados = produtos;
 
+}
 
-        lista.innerHTML += `
+else{
 
-        <div class="card">
-
-        <img src="${produto.imagem}">
-
-        <h3>${produto.nome}</h3>
-
-        <p>${produto.descricao}</p>
-
-        <strong>${produto.preco}</strong>
-
-        <br><br>
-
-        <button onclick="window.location.href='${produto.link}'">
-        Ver oferta
-        </button>
-
-        </div>
-
-        `;
-
-
-    });
+produtosFiltrados = produtos.filter(
+produto => produto.categoria === categoria
+);
 
 }
 
 
-// Carrega todos ao abrir
 
-mostrarProdutos("Todos");
+produtosFiltrados.forEach(produto => {
+
+
+lista.innerHTML += `
+
+<div class="card">
+
+<img src="${produto.imagem}">
+
+<h3>${produto.nome}</h3>
+
+<p>${produto.descricao}</p>
+
+<br>
+
+<button onclick="window.location.href='${produto.link}'">
+Ver oferta
+</button>
+
+
+</div>
+
+`;
 
 });
+
+
+}
+
+
+mostrarProdutos("Todos");
