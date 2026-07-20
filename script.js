@@ -61,32 +61,24 @@ function mostrarProdutos(categoria){
 
 
             <div class="avaliacao">
+
                 ⭐ ${produto.avaliacao}
+
             </div>
 
 
 
             <div class="vendidos">
-                ${produto.vendidos}
-            </div>
 
+                📦 ${produto.vendidos}
 
-
-            <div class="preco-antigo">
-                ${produto.precoAntigo}
-            </div>
-
-
-
-            <div class="preco">
-                ${produto.preco}
             </div>
 
 
 
             <button onclick="abrirOferta('${produto.link}')">
 
-                Ver oferta
+                Ver na AliExpress
 
             </button>
 
