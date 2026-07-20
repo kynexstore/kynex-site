@@ -10,6 +10,7 @@ precoAntigo:"R$ 529",
 avaliacao:"4.9",
 vendidos:"+5.000 vendidos",
 badge:"🔥 Oferta",
+tipoImagem:"",
 link:"#"
 },
 
@@ -24,6 +25,7 @@ precoAntigo:"R$ 349",
 avaliacao:"4.8",
 vendidos:"+3.000 vendidos",
 badge:"⭐ Mais vendido",
+tipoImagem:"",
 link:"#"
 },
 
@@ -38,6 +40,7 @@ precoAntigo:"R$ 419",
 avaliacao:"4.9",
 vendidos:"+2.500 vendidos",
 badge:"🔥 Oferta",
+tipoImagem:"",
 link:"#"
 },
 
@@ -52,6 +55,7 @@ precoAntigo:"R$ 339",
 avaliacao:"4.9",
 vendidos:"+4.000 vendidos",
 badge:"⭐ Mais vendido",
+tipoImagem:"mouse-grande",
 link:"#"
 },
 
@@ -66,6 +70,7 @@ precoAntigo:"R$ 249",
 avaliacao:"4.8",
 vendidos:"+8.000 vendidos",
 badge:"🔥 Oferta",
+tipoImagem:"mouse-grande",
 link:"#"
 },
 
@@ -80,6 +85,7 @@ precoAntigo:"R$ 169",
 avaliacao:"4.9",
 vendidos:"+1.500 vendidos",
 badge:"⭐ Recomendado",
+tipoImagem:"",
 link:"#"
 },
 
@@ -94,6 +100,7 @@ precoAntigo:"R$ 299",
 avaliacao:"4.8",
 vendidos:"+2.000 vendidos",
 badge:"🆕 Novo",
+tipoImagem:"headset",
 link:"#"
 },
 
@@ -108,6 +115,7 @@ precoAntigo:"R$ 109",
 avaliacao:"4.7",
 vendidos:"+900 vendidos",
 badge:"🔥 Oferta",
+tipoImagem:"",
 link:"#"
 }
 
