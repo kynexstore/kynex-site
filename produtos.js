@@ -22,7 +22,7 @@ avaliacao:"4.8",
 vendidos:"+3.000 vendidos",
 badge:"⭐ Mais vendido",
 tipoImagem:"",
-link:"#"
+link:"https://s.click.aliexpress.com/e/_mKiPO1v"
 },
 
 
@@ -35,12 +35,12 @@ avaliacao:"4.9",
 vendidos:"+2.500 vendidos",
 badge:"🔥 Oferta",
 tipoImagem:"",
-link:"#"
+link:"https://s.click.aliexpress.com/e/_mLqIQS3"
 },
 
 
 {
-nome:"ATK F1 Ultimate",
+nome:"ATK VXE R1",
 categoria:"Mouses",
 descricao:"Mouse gamer ultraleve para alta performance em jogos competitivos.",
 imagem:"images/atk-f1-ultimate.avif",
@@ -48,7 +48,7 @@ avaliacao:"4.9",
 vendidos:"+4.000 vendidos",
 badge:"⭐ Mais vendido",
 tipoImagem:"mouse-grande",
-link:"#"
+link:"https://s.click.aliexpress.com/e/_mLTFsRN"
 },
 
 
