@@ -359,3 +359,29 @@ font-size:38px;
 }
 
 }
+/* ===== CELULAR ===== */
+
+@media (max-width: 768px){
+
+header{
+    height:70px;
+    padding:0 20px;
+}
+
+.logo img{
+    height:35px;
+}
+
+nav ul{
+    gap:18px;
+}
+
+nav a{
+    font-size:18px;
+}
+
+.hero h1{
+    font-size:54px;
+}
+
+}
