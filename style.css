@@ -18,7 +18,6 @@ color:white;
 /* HEADER */
 
 header{
-
 display:flex;
 justify-content:space-between;
 align-items:center;
@@ -27,105 +26,65 @@ background:#111;
 position:sticky;
 top:0;
 z-index:100;
-
 border-bottom:1px solid #222;
-
 }
 
-
 .logo{
-
 font-size:38px;
 font-weight:900;
 letter-spacing:3px;
 color:#ff6b00;
-
 }
-
 
 nav{
-
 display:flex;
 gap:25px;
-
 }
 
-
 nav a{
-
 text-decoration:none;
 color:white;
 font-weight:bold;
-transition:.3s;
-
 }
 
-
 nav a:hover{
-
 color:#ff6b00;
-
 }
 
 
 
 /* HERO */
 
-
 .hero{
-
 min-height:500px;
 display:flex;
 align-items:center;
 justify-content:center;
 text-align:center;
+padding:40px;
 
 background:
-
 linear-gradient(
 rgba(0,0,0,.65),
 rgba(0,0,0,.9)
-),
-
-url("images/banner.avif");
-
-background-size:cover;
-background-position:center;
-
-padding:40px;
-
-}
-
-
-
-.hero-text{
-
-max-width:800px;
-
+);
 }
 
 
 .hero h1{
-
 font-size:55px;
-line-height:1.1;
 margin-bottom:20px;
-
 }
 
 
 .hero p{
-
 font-size:22px;
 color:#ccc;
 margin-bottom:35px;
-
 }
 
 
-
 .hero-button{
-
 display:inline-block;
 background:#ff6b00;
 color:white;
@@ -133,95 +92,52 @@ padding:15px 35px;
 border-radius:10px;
 text-decoration:none;
 font-weight:bold;
-transition:.3s;
-
-}
-
-
-.hero-button:hover{
-
-transform:scale(1.05);
-background:#ff8a33;
-
 }
 
 
 
 /* CATEGORIAS */
 
-
 .categorias{
-
 padding:60px 8%;
 text-align:center;
-
-}
-
-
-.categorias h2,
-.produtos h2,
-.setup h2{
-
-font-size:38px;
-margin-bottom:35px;
-
 }
 
 
 .categoria-lista{
-
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
 gap:20px;
-
 }
 
 
 .categoria{
-
 background:#151515;
 padding:30px;
 border-radius:15px;
-font-size:20px;
-font-weight:bold;
 border:1px solid #222;
-transition:.3s;
-
-}
-
-
-.categoria:hover{
-
-border-color:#ff6b00;
-transform:translateY(-5px);
-
+font-weight:bold;
 }
 
 
 
 /* PRODUTOS */
 
-
 .produtos{
-
 padding:60px 8%;
-
 }
 
 
 .filtros{
-
 display:flex;
 justify-content:center;
 gap:15px;
 margin-bottom:40px;
 flex-wrap:wrap;
-
 }
 
 
 .filtros button{
-
 background:#ff6b00;
 border:none;
 color:white;
@@ -229,22 +145,170 @@ padding:12px 25px;
 border-radius:10px;
 cursor:pointer;
 font-weight:bold;
+}
+
+
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+}
+
+
+
+/* CARD */
+
+.card{
+
+background:#151515;
+border-radius:18px;
+overflow:hidden;
+border:1px solid #222;
+position:relative;
+padding-bottom:20px;
+transition:.3s;
 
 }
 
 
-.cards{
+.card:hover{
 
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-gap:30px;
+transform:translateY(-8px);
+border-color:#ff6b00;
+
+}
+
+
+
+/* IMAGEM CORRIGIDA */
+
+.imagem-produto{
+
+height:260px;
+display:flex;
+align-items:center;
+justify-content:center;
+background:white;
+padding:20px;
+
+}
+
+
+.imagem-produto img{
+
+max-width:90%;
+max-height:220px;
+object-fit:contain;
+
+}
+
+
+
+/* AJUSTE PARA PRODUTOS GRANDES */
+
+.imagem-produto img.mouse-grande{
+
+max-height:150px;
+
+}
+
+
+
+.imagem-produto img.headset{
+
+max-height:190px;
+
+}
+
+
+
+.card h3{
+
+padding:18px 20px 5px;
+font-size:22px;
+color:#ff6b00;
+
+}
+
+
+.card p{
+
+padding:0 20px;
+color:#ccc;
+min-height:55px;
+
+}
+
+
+.avaliacao{
+
+padding:12px 20px 5px;
+color:#ffd43b;
+font-weight:bold;
+
+}
+
+
+.vendidos{
+
+padding:0 20px;
+color:#888;
+
+}
+
+
+.preco-antigo{
+
+padding:15px 20px 0;
+color:#777;
+text-decoration:line-through;
+
+}
+
+
+.preco{
+
+padding:5px 20px 18px;
+font-size:30px;
+font-weight:bold;
+color:#35d07f;
+
+}
+
+
+.badge{
+
+position:absolute;
+top:15px;
+left:15px;
+background:#ff6b00;
+padding:6px 12px;
+border-radius:20px;
+font-size:13px;
+z-index:2;
+
+}
+
+
+
+.card button{
+
+margin:0 20px;
+width:calc(100% - 40px);
+padding:14px;
+background:#ff6b00;
+border:none;
+border-radius:10px;
+color:white;
+font-weight:bold;
+cursor:pointer;
 
 }
 
 
 
 /* SETUP */
-
 
 .setup{
 
@@ -258,8 +322,8 @@ background:#111;
 .setup-produtos{
 
 margin-top:30px;
-font-size:22px;
 color:#ff6b00;
+font-size:22px;
 font-weight:bold;
 
 }
@@ -268,53 +332,25 @@ font-weight:bold;
 
 /* FOOTER */
 
-
 footer{
 
 text-align:center;
 padding:40px;
-background:#050505;
 color:#888;
 
 }
 
 
-footer h3{
-
-font-size:30px;
-color:#ff6b00;
-margin-bottom:10px;
-
-}
-
-
-
-/* MOBILE */
-
 
 @media(max-width:768px){
 
-
 header{
-
 flex-direction:column;
 gap:15px;
-
 }
-
 
 .hero h1{
-
 font-size:38px;
-
 }
-
-
-.hero p{
-
-font-size:18px;
-
-}
-
 
 }
