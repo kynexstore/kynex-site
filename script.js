@@ -36,10 +36,15 @@ function mostrarProdutos(categoria){
             </div>
 
 
-            <img 
-            src="${produto.imagem}" 
-            alt="${produto.nome}"
-            >
+            <div class="imagem-produto">
+
+                <img 
+                class="${produto.tipoImagem || ''}"
+                src="${produto.imagem}" 
+                alt="${produto.nome}"
+                >
+
+            </div>
 
 
 
