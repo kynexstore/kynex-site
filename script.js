@@ -1,59 +1,56 @@
 const lista = document.getElementById("lista-produtos");
 
+function mostrarProdutos(categoria) {
 
-function mostrarProdutos(categoria){
+    lista.innerHTML = "";
 
+    const produtosFiltrados =
+        categoria === "Todos"
+            ? produtos
+            : produtos.filter(produto => produto.categoria === categoria);
 
-lista.innerHTML="";
+    produtosFiltrados.forEach(produto => {
 
+        lista.innerHTML += `
 
-let produtosFiltrados;
+        <div class="card">
 
+            <div class="badge">
+                ${produto.badge}
+            </div>
 
-if(categoria === "Todos"){
+            <img src="${produto.imagem}" alt="${produto.nome}">
 
-produtosFiltrados = produtos;
+            <h3>${produto.nome}</h3>
 
-}
+            <p>${produto.descricao}</p>
 
-else{
+            <div class="avaliacao">
+                ⭐ ${produto.avaliacao}
+            </div>
 
-produtosFiltrados = produtos.filter(
-produto => produto.categoria === categoria
-);
+            <div class="vendidos">
+                ${produto.vendidos}
+            </div>
 
-}
+            <div class="preco-antigo">
+                ${produto.precoAntigo}
+            </div>
 
+            <div class="preco">
+                ${produto.preco}
+            </div>
 
+            <button onclick="window.open('${produto.link}','_blank')">
+                Ver oferta
+            </button>
 
-produtosFiltrados.forEach(produto => {
+        </div>
 
+        `;
 
-lista.innerHTML += `
-
-<div class="card">
-
-<img src="${produto.imagem}">
-
-<h3>${produto.nome}</h3>
-
-<p>${produto.descricao}</p>
-
-<br>
-
-<button onclick="window.location.href='${produto.link}'">
-Ver oferta
-</button>
-
-
-</div>
-
-`;
-
-});
-
+    });
 
 }
-
 
 mostrarProdutos("Todos");
