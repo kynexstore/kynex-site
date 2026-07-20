@@ -20,7 +20,7 @@ link:"#"
 nome:"Attack Shark X3",
 categoria:"Mouses",
 descricao:"Mouse leve e preciso para FPS.",
-imagem:"images/madlions-mad60he.avif",
+imagem:"images/attackshark-X3.avif",
 link:"#"
 },
 
