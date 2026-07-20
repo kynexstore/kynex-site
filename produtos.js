@@ -12,7 +12,7 @@ link:"#"
 nome:"Aula F75",
 categoria:"Teclados",
 descricao:"Teclado magnético Hall Effect para jogos competitivos.",
-imagem:"images/akko-tac75he.avif",
+imagem:"images/aula-f75.avif",
 link:"#"
 },
   
