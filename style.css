@@ -21,7 +21,7 @@ header{
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:8px 8%;
+padding:4px 8%;
 background:#111;
 position:sticky;
 top:0;
