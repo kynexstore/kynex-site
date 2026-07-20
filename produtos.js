@@ -3,7 +3,7 @@ const produtos = [
 {
 nome:"Akko TAC75 HE",
 categoria:"Teclados",
-descricao:"Teclado magnético Hall Effect com Rapid Trigger.",
+descricao:"Teclado magnético Hall Effect com Rapid Trigger, ideal para jogos competitivos.",
 imagem:"images/akko-tac75he.avif",
 preco:"R$ 399",
 precoAntigo:"R$ 529",
@@ -13,10 +13,11 @@ badge:"🔥 Oferta",
 link:"#"
 },
 
+
 {
 nome:"Madlions MAD60 HE",
 categoria:"Teclados",
-descricao:"Teclado compacto Hall Effect para jogos competitivos.",
+descricao:"Teclado compacto Hall Effect com resposta rápida para FPS.",
 imagem:"images/madlions-mad60he.avif",
 preco:"R$ 269",
 precoAntigo:"R$ 349",
@@ -26,10 +27,11 @@ badge:"⭐ Mais vendido",
 link:"#"
 },
 
+
 {
 nome:"Aula F75",
 categoria:"Teclados",
-descricao:"Teclado magnético premium com excelente custo-benefício.",
+descricao:"Teclado mecânico premium com excelente custo-benefício.",
 imagem:"images/aula-f75.avif",
 preco:"R$ 319",
 precoAntigo:"R$ 419",
@@ -39,10 +41,11 @@ badge:"🔥 Oferta",
 link:"#"
 },
 
+
 {
 nome:"ATK F1 Ultimate",
 categoria:"Mouses",
-descricao:"Mouse ultraleve de alta precisão para FPS.",
+descricao:"Mouse gamer ultraleve para alta performance em jogos competitivos.",
 imagem:"images/atk-f1-ultimate.avif",
 preco:"R$ 259",
 precoAntigo:"R$ 339",
@@ -52,10 +55,11 @@ badge:"⭐ Mais vendido",
 link:"#"
 },
 
+
 {
 nome:"Attack Shark X3",
 categoria:"Mouses",
-descricao:"Mouse gamer leve com sensor de alto desempenho.",
+descricao:"Mouse gamer com sensor preciso e ótimo custo-benefício.",
 imagem:"images/attackshark-X3.avif",
 preco:"R$ 189",
 precoAntigo:"R$ 249",
@@ -65,10 +69,11 @@ badge:"🔥 Oferta",
 link:"#"
 },
 
+
 {
-nome:"PK Control Mousepad",
+nome:"PK Control",
 categoria:"Setup",
-descricao:"Mousepad premium para máximo controle e precisão.",
+descricao:"Mousepad premium para controle e precisão no setup gamer.",
 imagem:"images/pkcontrol.avif",
 preco:"R$ 119",
 precoAntigo:"R$ 169",
@@ -78,10 +83,11 @@ badge:"⭐ Recomendado",
 link:"#"
 },
 
+
 {
 nome:"FIFINE H6",
 categoria:"Setup",
-descricao:"Headset gamer com excelente áudio e microfone.",
+descricao:"Headset gamer com ótimo áudio e microfone de qualidade.",
 imagem:"images/fifine-h6.avif",
 preco:"R$ 229",
 precoAntigo:"R$ 299",
@@ -91,10 +97,11 @@ badge:"🆕 Novo",
 link:"#"
 },
 
+
 {
 nome:"Hub USB 3.0",
 categoria:"Setup",
-descricao:"Expansão de portas USB para setups gamers.",
+descricao:"Expansor USB para organizar seu setup.",
 imagem:"images/hub-usb-3.0.avif",
 preco:"R$ 79",
 precoAntigo:"R$ 109",
