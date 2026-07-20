@@ -28,7 +28,7 @@ link:"#"
 nome:"PK control 1",
 categoria:"Setup",
 descricao:"Controle e velocidade para seu setup.",
-imagem:"https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7",
+imagem:"images/pkcontrol.avif",
 link:"#"
 }
 
