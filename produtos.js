@@ -43,7 +43,7 @@ link:"https://s.click.aliexpress.com/e/_mLqIQS3"
 nome:"ATK VXE R1",
 categoria:"Mouses",
 descricao:"Mouse gamer ultraleve para alta performance em jogos competitivos.",
-imagem:"images/atk-f1-ultimate.avif",
+imagem:"images/atk-vxe-r1.avif",
 avaliacao:"4.9",
 vendidos:"+4.000 vendidos",
 badge:"⭐ Mais vendido",
