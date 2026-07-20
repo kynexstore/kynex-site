@@ -9,6 +9,14 @@ link:"#"
 },
 
 {
+nome:"Aula F75",
+categoria:"Teclados",
+descricao:"Teclado magnético Hall Effect para jogos competitivos.",
+imagem:"images/akko-tac75he.avif",
+link:"#"
+},
+  
+{
 nome:"Madlions MAD60",
 categoria:"Teclados",
 descricao:"Teclado compacto magnético para setups minimalistas.",
