@@ -61,7 +61,7 @@ avaliacao:"4.8",
 vendidos:"+8.000 vendidos",
 badge:"🔥 Oferta",
 tipoImagem:"mouse-grande",
-link:"#"
+link:"https://s.click.aliexpress.com/e/_mLOUvDd"
 },
 
 
@@ -74,7 +74,7 @@ avaliacao:"4.9",
 vendidos:"+1.500 vendidos",
 badge:"⭐ Recomendado",
 tipoImagem:"",
-link:"#"
+link:"https://s.click.aliexpress.com/e/_m0ZrbZd"
 },
 
 
@@ -87,7 +87,7 @@ avaliacao:"4.8",
 vendidos:"+2.000 vendidos",
 badge:"🆕 Novo",
 tipoImagem:"headset",
-link:"#"
+link:"https://s.click.aliexpress.com/e/_mr2eOsR"
 },
 
 
@@ -100,7 +100,7 @@ avaliacao:"4.7",
 vendidos:"+900 vendidos",
 badge:"🔥 Oferta",
 tipoImagem:"",
-link:"#"
+link:"https://s.click.aliexpress.com/e/_mLIALC7"
 }
 
 ];
