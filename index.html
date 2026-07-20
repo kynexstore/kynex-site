@@ -2,54 +2,145 @@
 <html lang="pt-BR">
 
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>KYNEX | Loja Gamer</title>
+<title>KYNEX | Periféricos Gamer</title>
 
 <link rel="stylesheet" href="style.css">
 
 </head>
 
+
 <body>
+
 
 <header>
 
-<div class="logo">KYNEX</div>
+<div class="logo">
+KYNEX
+</div>
+
 
 <nav>
+
 <a href="#">Início</a>
-<a href="#">Teclados</a>
-<a href="#">Mouses</a>
-<a href="#">Setup</a>
+<a href="#produtos">Produtos</a>
+<a href="#categorias">Categorias</a>
+
 </nav>
+
 
 </header>
 
 
+
 <section class="hero">
 
-<h1>Monte o setup dos seus sonhos</h1>
+
+<div class="hero-text">
+
+<h1>
+Seu próximo setup começa aqui.
+</h1>
+
 
 <p>
-Periféricos gamers selecionados para elevar sua performance.
+Os melhores periféricos gamers selecionados para elevar sua performance.
 </p>
+
+
+<a href="#produtos" class="hero-button">
+Ver ofertas
+</a>
+
+
+</div>
+
 
 </section>
 
 
 
-<section class="produtos">
 
-<h2>Produtos</h2>
+<section id="categorias" class="categorias">
+
+
+<h2>
+Categorias
+</h2>
+
+
+<div class="categoria-lista">
+
+
+<div class="categoria">
+⌨️
+<br>
+Teclados
+</div>
+
+
+<div class="categoria">
+🖱️
+<br>
+Mouses
+</div>
+
+
+<div class="categoria">
+🎧
+<br>
+Headsets
+</div>
+
+
+<div class="categoria">
+🖥️
+<br>
+Setup
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+<section id="produtos" class="produtos">
+
+
+<h2>
+Produtos em destaque
+</h2>
+
 
 
 <div class="filtros">
 
-<button onclick="mostrarProdutos('Todos')">Todos</button>
-<button onclick="mostrarProdutos('Teclados')">Teclados</button>
-<button onclick="mostrarProdutos('Mouses')">Mouses</button>
-<button onclick="mostrarProdutos('Setup')">Setup</button>
+<button onclick="mostrarProdutos('Todos')">
+Todos
+</button>
+
+
+<button onclick="mostrarProdutos('Teclados')">
+Teclados
+</button>
+
+
+<button onclick="mostrarProdutos('Mouses')">
+Mouses
+</button>
+
+
+<button onclick="mostrarProdutos('Setup')">
+Setup
+</button>
+
 
 </div>
 
@@ -60,20 +151,73 @@ Periféricos gamers selecionados para elevar sua performance.
 </div>
 
 
+
 </section>
+
+
+
+
+<section class="setup">
+
+
+<h2>
+🔥 Setup da Semana
+</h2>
+
+
+<p>
+Combinação perfeita para montar um setup gamer completo.
+</p>
+
+
+<div class="setup-produtos">
+
+⌨️ Akko TAC75 HE
+
++
+
+🖱️ ATK F1 Ultimate
+
++
+
+🎧 FIFINE H6
+
+
+</div>
+
+
+</section>
+
 
 
 
 <footer>
 
+
+<h3>
+KYNEX
+</h3>
+
+
+<p>
+Periféricos gamers selecionados para você.
+</p>
+
+
+<p>
 © 2026 KYNEX
+</p>
+
 
 </footer>
 
 
 
+
 <script src="produtos.js"></script>
+
 <script src="script.js"></script>
+
 
 </body>
 
