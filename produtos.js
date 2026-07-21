@@ -101,6 +101,18 @@ vendidos:"+900 vendidos",
 badge:"🔥 Oferta",
 tipoImagem:"",
 link:"https://s.click.aliexpress.com/e/_mLIALC7"
+},
+
+{
+nome:"Braço Articulado p/ Monitor",
+categoria:"Setup",
+descricao:"Braço articulado para deixar o seu setup mais versátil.",
+imagem:"",
+avaliacao:"4.7",
+vendidos:"+5000 vendidos",
+badge:"🔥 Oferta",
+tipoImagem:"",
+link:"https://s.click.aliexpress.com/e/_mMqcRNH"
 }
 
 ];
