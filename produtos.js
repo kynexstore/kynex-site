@@ -118,7 +118,7 @@ link:"https://s.click.aliexpress.com/e/_mMqcRNH"
 {
 nome:"Fita LED COB",
 categoria:"Setup",
-descricao:"LED decorativo para deixar o seu setup mais elegante e aconchegante.",
+descricao:"led decorativo para deixar o seu setup mais elegante e aconchegante.",
 imagem:"images/fita-led-cob.avif",
 avaliacao:"4.8",
 vendidos:"+10000 vendidos",
