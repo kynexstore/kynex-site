@@ -111,7 +111,7 @@ imagem:"",
 avaliacao:"4.7",
 vendidos:"+5000 vendidos",
 badge:"🔥 Oferta",
-tipoImagem:"",
+tipoImagem:"images/braço-articulado-monitor.avif",
 link:"https://s.click.aliexpress.com/e/_mMqcRNH"
 }
 
