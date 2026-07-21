@@ -12,6 +12,17 @@ tipoImagem:"",
 link:"https://s.click.aliexpress.com/e/_mLFE74j"
 },
 
+{
+nome:"Ajazz Ak820 PRO",
+categoria:"Teclados",
+descricao:"Teclado mecânico, switches macios, ideal para jogos competitivos.",
+imagem:"images/akko-tac75he.avif",
+avaliacao:"4.9",
+vendidos:"+10.000 vendidos",
+badge:"🔥 Oferta",
+tipoImagem:"",
+link:"https://s.click.aliexpress.com/e/_mLFE74j"
+},
 
 {
 nome:"Madlions MAD60 HE",
