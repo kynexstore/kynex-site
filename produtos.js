@@ -21,7 +21,7 @@ avaliacao:"4.9",
 vendidos:"+10.000 vendidos",
 badge:"🔥 Oferta",
 tipoImagem:"",
-link:"https://s.click.aliexpress.com/e/_mLFE74j"
+link:"https://s.click.aliexpress.com/e/_mqV1sTV"
 },
 
 {
