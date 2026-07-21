@@ -94,7 +94,7 @@ link:"https://s.click.aliexpress.com/e/_mr2eOsR"
 nome:"KZ Castor Pro",
 categoria:"Setup",
 descricao:"Fone intrauricular gamer com ótimo áudio e microfone de qualidade.",
-imagem:"images/fifine-h6.avif",
+imagem:"images/fone-kz-castor-pro.avif",
 avaliacao:"4.8",
 vendidos:"+10.000 vendidos",
 badge:"🆕 Novo",
