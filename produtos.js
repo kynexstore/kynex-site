@@ -113,6 +113,18 @@ vendidos:"+5000 vendidos",
 badge:"🔥 Oferta",
 tipoImagem:"",
 link:"https://s.click.aliexpress.com/e/_mMqcRNH"
+},
+  
+{
+nome:"Fita LED COB",
+categoria:"Setup",
+descricao:"LED decorativo para deixar o seu setup mais elegante e aconchegante.",
+imagem:"images/braço-articulado-monitor.avif",
+avaliacao:"4.8",
+vendidos:"+10000 vendidos",
+badge:"🔥 Oferta",
+tipoImagem:"",
+link:"https://s.click.aliexpress.com/e/_mMqcRNH"
 }
 
 ];
