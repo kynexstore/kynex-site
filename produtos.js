@@ -131,7 +131,7 @@ link:"https://s.click.aliexpress.com/e/_mMqcRNH"
 nome:"Cabo enrolado USB-C para teclado",
 categoria:"Setup",
 descricao:"Cabo para deixar o seu teclado mais bonito e funcional.",
-imagem:"images/fita-led-cob.avif",
+imagem:"images/cabo-enrolado-usbc.avif",
 avaliacao:"4.8",
 vendidos:"+10000 vendidos",
 badge:"🔥 Oferta",
